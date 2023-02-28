@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SlowGram</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">Slow</div>
+        <ul class="nav_links">
+          <li class="nav_items">
+            <a class="nav_link" href="#section--1">About</a>
+          </li>
+          <li class="nav_items">
+            <a class="nav_link" href="#section--2">Features</a>
+          </li>
+          <li class="nav_items">
+            <a class="nav_link" href="#section--3">Download</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header_title">
+        <div class="welcome">
+          <span class="greetings">Welcome to</span>
+          <h1 class="name">SLOWGRAM</h1>
+          <h3 class="description">
+            A place to <span class="multiText"></span>
+          </h3>
+          <div class="more">
+            <button class="btn_text btn_scroll_to">
+              Learn More &DownArrow;
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/emoji.png" />
+        </div>
+      </div>
+    </header>
+    <section class="section" id="section--1">
+      <div class="section_title section_title--about">
+        <h2 class="section_description">About SlowGram</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          animi ut non illum sapiente perferendis necessitatibus deleniti error
+          architecto! Labore sed incidunt ducimus aut in nihil molestiae facere
+          maiores natus! Lorem, ipsum dolor sit amet consectetur adipisicing
+          elit. Itaque omnis optio quaerat dolorem! Asperiores voluptas
+          exercitationem ipsam magni possimus odit aspernatur saepe! Commodi vel
+          corporis magnam reiciendis vitae ullam. Saepe?
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section_title section_title--features">
+        <h2 class="section_description">Features Available</h2>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <div class="features">
+            <h5 class="features_header">Add and Connect with People</h5>
+            <blockquote class="features_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              blanditiis earum eligendi debitis? Quos veniam eveniet quidem nam
+              consectetur mollitia aliquam, dolorem tenetur ipsam iure,
+              voluptatem tempora quasi facere? Eius.
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="features">
+            <h5 class="features_header">Share Memories with Mutuals</h5>
+            <blockquote class="features_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+              numquam, iure culpa explicabo amet sint quibusdam quis harum totam
+              tempora, veniam veritatis rem unde est reiciendis! Dolores non
+              nihil facere!
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="features">
+            <h5 class="features_header">Built Your Own Community Online</h5>
+            <blockquote class="features_text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam,
+              est deleniti. Nostrum atque non ducimus suscipit? Quis fugiat
+              fuga, sint autem enim debitis. Minima consequatur explicabo
+              excepturi veritatis dolore! Iure?
+            </blockquote>
+          </div>
+        </div>
+
+        <button class="slider_btn slider_btn--left">&larr;</button>
+        <button class="slider_btn slider_btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <section class="section" id="section--3">
+      <div class="section_title section_title--downloads">
+        <h2 class="section_descriptions">Download Now!</h2>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typingEffect = new Typed('.multiText', {
+        strings: ['Share Ideas', 'Built Connection', 'Make Memories'],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1500,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
